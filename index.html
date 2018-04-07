@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>瓢城企业网</title>
+
+    <!-- Bootstrap -->
+    <link href="./css/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-header">
+                    <a href="#">
+                        <img alt="Brand" src="./images/logo.png">
+                    </a>
+                    <!-- 切换导航 -->
+                    <a class="navbar-toggle collapsed" id="a-bar" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                </div>
+                <!-- <a class="navbar-toggle collapsed" id="a-bar" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a> -->
+                <!-- <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Button with data-target
+                      </button> -->
+                <div class="collapse" id="collapseExample">
+                    <div class="well">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>首页</a></li>
+                            <li><a href="./message.html"><span class="glyphicon glyphicon-th-list"></span>资讯</a></li>
+                            <li><a href="./case.html"><span class="glyphicon glyphicon-fire"></span>案例</a></li>
+                            <li><a href="./about.html"><span class="glyphicon glyphicon-question-sign"></span>关于</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>首页</a></li>
+                        <li><a href="./message.html"><span class="glyphicon glyphicon-th-list"></span>资讯</a></li>
+                        <li><a href="./case.html"><span class="glyphicon glyphicon-fire"></span>案例</a></li>
+                        <li><a href="./about.html"><span class="glyphicon glyphicon-question-sign"></span>关于</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 轮播图 -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active" style="background-color:#243442;">
+                <img src="./images/slide1.png" alt="...">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+            <div class="item" style="background-color:#f5e5dd">
+                <img src="./images/slide2.png" alt="...">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+            <div class="item" style="background-color:#dc292c;">
+                <img src="./images/slide3.png" alt="...">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- 正文内容1 -->
+    <div class="section1">
+        <div class="container">
+            <h2 class="section1-h2">[为什么选择瓢城企业培训]</h2>
+            <p style="text-align:center;letter-spacing:2px;font-weight:600;color:#999;font-size:15px;">强大的师资力量。完美的实战型管理课程，让你的企业实现质的腾飞！</p>
+        </div>
+        <div class="row" id="section1-row">
+            <div class="container">
+                <div class="col-lg-6 col-md-6">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object" src="./images/tab1-1.png" alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">课程内容</h4>
+                            <p><s style="color:#999;">其他：不知名的讲师讲解，没有任何实战价值的教材！</s></p>
+                            <p>其他：知名企业家、管理学大师联合编写的具有实现性教材！</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object" src="./images/tab1-2.png" alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">师资力量</h4>
+                            <p><s style="color:#999;">其他：非欧美正牌大学毕业的、业界没有知名度的讲师！</s></p>
+                            <p>其他：美国哈佛、耶鲁等世界一流高校、享有声誉的名牌专家！！</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object" src="./images/tab1-3.png" alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">课时安排</h4>
+                            <p><s style="color:#999;">其他：无法保证上课效率、没有时间表，当天任务无法完成！</s></p>
+                            <p>其他：保证正常的上课效率、制定一张时间表、当天的任务当天完成！</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object" src="./images/tab1-4.png" alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">服务团队</h4>
+                            <p><s style="color:#999;">其他：社会招聘的、服务水平参差不齐的普通员工！</s></p>
+                            <p>其他：内部培养、经受过良好高端服务培训的高标准员工！</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 正文内容2 -->
+    <div class="section2" style="background:#eee; margin-top:50px;">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-xs-6 col-sm-6 center-block" style="float:right;">
+                    <img src="./images/tab2.png" class="img-responsive center-block">
+                </div>
+                <div class="col-xs-6 col-sm-6">
+                    <p style="font-size:24px;text-align:center;">强大的学习体系</p>
+                    <p style="font-size:18px;text-align:center;">经过管理学大师的层层把关，让您的企业突飞猛进！</p>
+                </div> -->
+                <div class="col-md-6 col-sm-6 center-block" style="margin:30px auto;float:right;padding-right:100px;">
+                    <img src="./images/tab2.png" class="img-responsive center-block">
+                </div>
+                <div class="col-md-6 col-sm-6 center-block" style="margin:120px auto;padding-left:100px;float:left;">
+                    <p style="font-size:24px;text-align:center;">强大的学习体系</p>
+                    <p style="font-size:18px;text-align:center;">经过管理学大师的层层把关，让您的企业突飞猛进！</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section3">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-xs-6 col-sm-6 center-block" style="float:right;">
+                        <img src="./images/tab2.png" class="img-responsive center-block">
+                    </div>
+                    <div class="col-xs-6 col-sm-6">
+                        <p style="font-size:24px;text-align:center;">强大的学习体系</p>
+                        <p style="font-size:18px;text-align:center;">经过管理学大师的层层把关，让您的企业突飞猛进！</p>
+                    </div> -->
+                <div class="col-md-6 col-sm-6 center-block" style="margin:30px auto;">
+                    <img src="./images/tab3.png" class="img-responsive center-block">
+                </div>
+                <div class="col-md-6 col-sm-6 center-block" style="margin:150px auto;">
+                    <p style="font-size:24px;text-align:center;">强大的学习体系</p>
+                    <p style="font-size:18px;text-align:center;">经过管理学大师的层层把关，让您的企业突飞猛进！</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <p>企业培训 | 合作事宜 | 版权投诉</p>
+                <p>苏ICP备12345678. © 2009-2016 瓢城企训网. Powered by Bootstrap.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="./css/jquery/dist/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
